@@ -34,10 +34,7 @@ socket.on('newMessage', function (message) {
   });
 
   jQuery('#messages').append(html);
-<<<<<<< HEAD
   scrollToBottom();
-=======
->>>>>>> 97b56d5db37e73c97b4a77d4fa7a3b28a0ca89c4
 });
 
 socket.on('newLocationMessage', function (message) {
@@ -50,10 +47,7 @@ socket.on('newLocationMessage', function (message) {
   });
 
   jQuery('#messages').append(html);
-<<<<<<< HEAD
   scrollToBottom();
-=======
->>>>>>> 97b56d5db37e73c97b4a77d4fa7a3b28a0ca89c4
 });
 
 jQuery('#message-form').on('submit', function (e) {
